@@ -1,0 +1,413 @@
+*{margin:0;padding:0}
+body{
+	background-color:#EEEBAE;
+}
+
+blockquote{
+	background:#B5B9B8;
+	margin-left:50px;
+	padding:10px;
+	padding-left:30px;
+	border-left:3px solid orange;
+}
+.main_wrap{
+	width:100%;
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+	
+}
+
+.header_bg{
+	background: linear-gradient(green, yellow);
+	border-bottom:5px solid #6B710E;
+	border-top:5px solid #6B710E;
+}
+
+
+#social_area{
+	list-style-type:none;
+	padding:10px;
+	position:fixed;
+	right:0;
+	top:25%;
+	border-radius:25px 0 0 25px;
+	background:#fff;
+	
+}
+#social_area li{
+	float:none;
+	
+	
+}
+#social_area li img{
+	width:32px;
+	height:32px;
+	
+}
+
+#header{
+	background: linear-gradient(white, green);
+	padding:15px;
+	border-right:1px solid #6B710E;
+	border-left:1px solid #6B710E;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px black;
+	-webkit-box-shadow: 5px 5px black;
+	box-shadow: 5px 5px black;
+	
+	
+}
+#header h1{
+	font-size:50em;
+	color:FE0000;
+	font-family:SolaimanLipi;
+	margin-left:250px;
+	font-size:30px;
+	text-shadow: 1px 3px 4px #6B710E;
+}
+#header p{
+	color:#FFFFFF;
+	font-family:SolaimanLipi;
+	margin-top:20px;
+	margin-left:190px;
+
+}
+.nav_bg{
+	background:#fff;
+	border-bottom:5px solid #6B710E;
+	
+}
+#nav{
+	background-color:#9CF4F9;
+	height:38px;
+	border-right:1px solid #6B710E;
+	border-left:1px solid #6B710E;
+}
+
+#nav ul{
+	background-color:#0005F8;
+	list-style-type:none;
+	z-index:999;
+	
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid #6B710E;
+}
+#nav ul li:last-child{
+	border:none;
+}
+#nav ul li a{
+	text-decoration: none;
+	color:#000000;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+	-webkit-transition:0.2s all ease;
+	-moz-transition:0.2s all ease;
+	transition:0.2s all ease;
+	
+}
+#nav ul li a:hover{
+	color:#FFFFFF;
+	background:#6B710E;
+}
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;
+	left:-999999px;
+	background-color:#ffff
+}
+#nav ul li:hover ul{
+	left:0px;
+	
+}
+#nav ul li ul li:first-child{
+	border-top:5px solid #6B710E;
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid #6B710E;
+	width:250px;
+	position:relative;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-999999px;
+}
+#nav ul li ul li:hover ul{
+	top:-1px;
+	left:170px;
+}
+#nav ul li ul li ul li{
+	border-left:1px solid #6B710E
+}
+#nav ul li ul li ul li:first-child{
+	border-top:none;
+}
+#nav ul li ul li ul li:last-child{
+	border-left:1px solid #6B710E
+	
+}
+
+#slider_wrapper{
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+
+	
+}
+.slider_bg{
+	background:#222222;
+
+}
+.content_bg{
+	background:#fff;
+	
+}
+#content_wrapper{
+	background-color:#fff;
+	padding:10px;
+	overflow:hidden;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+.main_wrap .wrap #slider_wrapper .slider_wrapper img{
+	width:922px;
+	height:200px;
+}
+
+#content{
+	width:620px;
+	margin-right:20px;
+	float:left;
+}
+#content h2{
+	color:#6B710E;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:SolaimanLipi;
+	font-size:23px;
+}
+#content p{
+	margin:15px 0;
+	font-family:SolaimanLipi;
+	color:black;
+	font-size:15px;
+}
+
+#content img{
+	width:150px;
+	margin:0 auto;
+	display:block;
+}
+#content figure{
+	width:250px;
+	padding:10px;
+	background:#A1A3F3;
+	margin:0 auto;
+	display:block;
+	margin-top:5px;
+	margin-left: 10px;
+}
+#content figcaption{
+	text-align:center;
+	color:#000000;
+	font-family:arial;
+	font-weight:bold;
+	padding:5px;
+}
+
+#content h3{
+	color:#FFFFFF;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:SolaimanLipi;
+	font-size:20px;
+}
+
+#sidebar{
+	float:left;
+	font-family:SolaimanLipi;
+}
+#sidebar ul{
+}
+
+#sidebar ul li{
+	border-bottom:1px solid #0C11F2;
+	border-right:1px solid #0C11F2;
+	margin-bottom:3px;
+}
+#sidebar ul li:hover{
+	border-bottom:none;
+	background:#000000;
+}
+#sidebar ul li a{
+	text-decoration:none;
+	color:#000000;
+	padding:3px;
+	display:block;
+}
+#sidebar ul li a:hover{
+	color:#E4E4F7
+	
+}
+#sidebar h2{
+	color:#000000;
+}
+.footer_bg{
+	background:#635548;
+	
+}
+#footer{
+	background-color:#635548;
+	padding:10px;
+	text-align:center;
+}
+#footer p{
+	color:#fff;
+}
+#home_page_article{
+	margin-bottom:25px;
+	border-bottom:1px solid #635548;
+	overflow:hidden;
+	
+}
+
+#imgp_wrap img{
+	width:75px;
+	height:75px;
+	background:#fff;
+	border:1px solid #ddd;
+	padding:3px;
+	margin-right:10px;
+	float:left;
+}
+#imgp_wrap p{
+	float:left;
+	width:500px;
+	margin-top:0;
+}
+#imgp_wrap{
+	margin-top:10px;
+	}
+	
+#main_sidebar{
+	border-bottom:1px solid #6B710E;
+	margin-bottom:25px;
+	overflow:hidden;
+	padding-bottom:5px;
+	
+	
+}
+#main_sidebar ul li{
+	padding-left:10px;
+}
+#main_sidebar h2{
+	margin-bottom:10px;
+}
+
+
+.right_sidebar
+
+#right_sidebar{
+	width:300;
+	float:right;
+	margin-right:300px;
+}
+#right_sidebar ul{
+}
+
+#right_sidebar ul li{
+	border-bottom:1px solid #D5A6A6;
+	margin-bottom:3px;
+}
+#right_sidebar ul li:last-child{
+	border-bottom:none;
+}
+#right_sidebar ul li a{
+	text-decoration:none;
+	color:#6B710E;
+	padding:3px;
+	display:block;
+}
+#right_sidebar h2{
+	color:#6B710E;
+}
+
+
+-------------
+#content_wrapper_Puran_Bazar{
+	background-color:#fff;
+	padding:10px;
+	overflow:hidden;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+#content{
+	width:620px;
+	margin-right:0px;
+	float:right;
+}
+#content_wrapper_Puran_Bazar h2{
+	color:#6B710E;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:SolaimanLipi;
+	font-size:23px;
+}
+#content_wrapper_Puran_Bazar p{
+	margin:15px 0;
+	font-family:SolaimanLipi;
+	color:black;
+	font-size:15px;
+}
+
+#content_wrapper_Puran_Bazar img{
+	width:150px;
+	margin:0 auto;
+	display:block;
+}
+#content_wrapper_Puran_Bazar figure{
+	width:150px;
+	padding:10px;
+	background:#ddd;
+	margin:0 auto;
+	display:block;
+}
+#content_wrapper_Puran_Bazar figcaption{
+	text-align:center;
+	color:green;
+	font-family:arial;
+	font-weight:bold;
+}
+
+#content_wrapper_Puran_Bazar h3{
+	color:#6B710E;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:SolaimanLipi;
+	font-size:20px;
+}
+
+
+
+--------------
+.footer_bg{
+	background:#635548;
+	
+}
+#footer_Puran Bazar{
+	background-color:#635548;
+	padding:10px;
+	text-align:center;
+}
+#footer_Puran Bazar p{
+	color:#fff;
+}
